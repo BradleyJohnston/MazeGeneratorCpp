@@ -1,0 +1,40 @@
+﻿  MazeContainer.cpp
+C:\Users\Bradley\source\repos\MazeGenerationAlgorithms\MazeGenerationAlgorithms\MazeContainer.cpp(256,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bradley\source\repos\MazeGenerationAlgorithms\MazeGenerationAlgorithms\MazeContainer.cpp(316,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Bradley\source\repos\MazeGenerationAlgorithms\MazeGenerationAlgorithms\MazeContainer.cpp(318,21): warning C4018: '<': signed/unsigned mismatch
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::display(void)" (?display@Maze_Container@Maze@@QEAAXXZ) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: class cv::Mat __cdecl Maze::Maze_Container::convertMazeToImage(void)" (?convertMazeToImage@Maze_Container@Maze@@QEAA?AVMat@cv@@XZ) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::writeMazeAsImage(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?writeMazeAsImage@Maze_Container@Maze@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: __cdecl Maze::Maze_Container::Maze_Container(unsigned int,unsigned int)" (??0Maze_Container@Maze@@QEAA@II@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: __cdecl Maze::Maze_Container::Maze_Container(void)" (??0Maze_Container@Maze@@QEAA@XZ) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: class Maze::Pair __cdecl Maze::Maze_Container::getRandomUnvisitedNeighbors(unsigned int,unsigned int)" (?getRandomUnvisitedNeighbors@Maze_Container@Maze@@QEAA?AVPair@2@II@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: bool __cdecl Maze::Maze_Container::isCellVisited(unsigned int,unsigned int)" (?isCellVisited@Maze_Container@Maze@@QEAA_NII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::reset(void)" (?reset@Maze_Container@Maze@@QEAAXXZ) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::unvisit(void)" (?unvisit@Maze_Container@Maze@@QEAAXXZ) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::initializeMaze(void)" (?initializeMaze@Maze_Container@Maze@@QEAAXXZ) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::visitCell(unsigned int,unsigned int)" (?visitCell@Maze_Container@Maze@@QEAAXII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: bool __cdecl Maze::Maze_Container::isWestPath(unsigned int,unsigned int)" (?isWestPath@Maze_Container@Maze@@QEAA_NII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: bool __cdecl Maze::Maze_Container::isSouthPath(unsigned int,unsigned int)" (?isSouthPath@Maze_Container@Maze@@QEAA_NII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: bool __cdecl Maze::Maze_Container::isEastPath(unsigned int,unsigned int)" (?isEastPath@Maze_Container@Maze@@QEAA_NII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: bool __cdecl Maze::Maze_Container::isNorthPath(unsigned int,unsigned int)" (?isNorthPath@Maze_Container@Maze@@QEAA_NII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::closeWestPath(unsigned int,unsigned int)" (?closeWestPath@Maze_Container@Maze@@QEAAXII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::closeSouthPath(unsigned int,unsigned int)" (?closeSouthPath@Maze_Container@Maze@@QEAAXII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::closeEastPath(unsigned int,unsigned int)" (?closeEastPath@Maze_Container@Maze@@QEAAXII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::closeNorthPath(unsigned int,unsigned int)" (?closeNorthPath@Maze_Container@Maze@@QEAAXII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::openWestPath(unsigned int,unsigned int)" (?openWestPath@Maze_Container@Maze@@QEAAXII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::openSouthPath(unsigned int,unsigned int)" (?openSouthPath@Maze_Container@Maze@@QEAAXII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::openEastPath(unsigned int,unsigned int)" (?openEastPath@Maze_Container@Maze@@QEAAXII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::openNorthPath(unsigned int,unsigned int)" (?openNorthPath@Maze_Container@Maze@@QEAAXII@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: unsigned int __cdecl Maze::Maze_Container::getWhiteRatio(void)" (?getWhiteRatio@Maze_Container@Maze@@QEAAIXZ) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: unsigned int __cdecl Maze::Maze_Container::getWidth(void)" (?getWidth@Maze_Container@Maze@@QEAAIXZ) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: unsigned int __cdecl Maze::Maze_Container::getHeight(void)" (?getHeight@Maze_Container@Maze@@QEAAIXZ) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::setWhiteRatio(unsigned int)" (?setWhiteRatio@Maze_Container@Maze@@QEAAXI@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::setWidth(unsigned int)" (?setWidth@Maze_Container@Maze@@QEAAXI@Z) already defined in MazeContainer.obj; second definition ignored
+MazeGenerationAlgorithms.obj : warning LNK4006: "public: void __cdecl Maze::Maze_Container::setHeight(unsigned int)" (?setHeight@Maze_Container@Maze@@QEAAXI@Z) already defined in MazeContainer.obj; second definition ignored
+C:\Users\Bradley\source\repos\MazeGenerationAlgorithms\x64\Release\MazeGenerationAlgorithms.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  Generating code
+  0 of 197 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  MazeGenerationAlgorithms.vcxproj -> C:\Users\Bradley\source\repos\MazeGenerationAlgorithms\x64\Release\MazeGenerationAlgorithms.exe
